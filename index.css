@@ -1,0 +1,75 @@
+*
+{
+    padding:  0px;
+    margin:  0px auto;
+}
+
+
+/* 주석 사용법 */
+
+
+
+
+/* 헤드 라인 */
+
+header
+{
+    height: 120px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+
+header ul
+{
+    font-size: 0px;
+}
+
+
+header img
+{
+    margin-top: 33px;
+}
+
+
+header li
+{
+    display: inline-block;
+    
+    padding: 53px 40px 0px 40px;
+    font-size: 15px;
+}
+
+header li:hover
+{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
+
+header .right 
+{
+    float: left;
+}
+
+
+header .left
+{
+    float: right;
+}
+
+
+
+
+
+
+/* 메인 이미지 */
+
+#main_picture
+{
+    width: 100%;
+    height: 464px;
+}
+
