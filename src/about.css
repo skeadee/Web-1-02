@@ -1,0 +1,48 @@
+*
+{
+   margin: 0 auto;
+   padding: 0;
+   font-size: 14px;
+   
+   font-family: 'Malgun Gothic', 'Gulim', sans-serif;
+}
+
+
+
+/* 메인 이미지 */
+
+#top
+{
+   margin-top: 30px;
+
+   width: 1000px;
+   height: 500px;
+
+   position: relative;
+   
+}
+
+#top img
+{
+   float: left;
+}
+
+#top div
+{
+   width: 250px;
+   height: 250px;
+
+   position: absolute;
+   bottom: 0px;
+
+   background-color: rgba(29, 255, 29, 0.386);
+}
+
+#top div p
+{
+   width: 210px;
+   height: 210px;
+
+   line-height: 23px;
+   padding: 20px 0px 0px 20px;
+}
