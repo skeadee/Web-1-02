@@ -1,0 +1,10 @@
+#icon_title 
+{
+    text-align: center;
+    
+    padding: 30px 0px 30px 0px;
+}
+
+#icon_title p{
+    display: inline;
+}
