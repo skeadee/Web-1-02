@@ -1,0 +1,37 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header
+{
+    height: 120px;
+    border-bottom: 2px solid black;
+}
+
+#header .img{
+    display: block;
+    margin-top: 33px;
+}
+
+#header ul{
+    height: 53px;
+    padding-bottom: 14px;
+}
+
+#header li
+{
+    display: inline-block;
+
+    margin: 0px 40px 0px 40px;
+    padding-top: 20px;
+}
+
+#header .left{
+    float: left;
+}
+
+#header .right{
+    float: right;
+}
+
