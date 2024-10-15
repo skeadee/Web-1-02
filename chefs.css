@@ -1,0 +1,36 @@
+#chefs
+{
+    height: 304px;
+    text-align: center;
+
+    background-color: gainsboro;
+}
+
+#chefs div
+{
+    display: inline-block; 
+    text-align: left;
+
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+#chefs .title
+{ 
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+#chefs .txt
+{
+    width: 500px;
+    font-size: 15px;
+
+    line-height: 25px;
+    padding-right: 30px;
+}
+
+#chefs img{
+    display: inline-block;
+}
