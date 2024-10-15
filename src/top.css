@@ -1,0 +1,33 @@
+*
+{
+   margin: 0 auto;
+   font-size: 14px;
+   font-family: "Malgun Gothic";
+}
+
+#top
+{
+   width: 1000px;
+   height: 500px;
+
+   margin-top: 10px;
+   position: relative;
+}
+
+#top img
+{
+   float : left;
+}
+
+#top p
+{
+   width: 210px;  
+   height: 210px;
+
+   padding: 20px 20px 20px 20px;
+
+   position: absolute;
+   bottom: 0px;
+
+   background-color: rgba(21, 126, 53, 0.566);
+}
