@@ -1,0 +1,36 @@
+#box_all
+{
+    width: 1000px;
+    height: 500px;
+
+    background-color: aqua;
+}
+
+#box_all .small_box
+{
+    width: 210px;
+    height: 210px;
+
+    padding: 20px 20px 20px 20px;
+
+    background-color: brown;
+    float: left;
+}
+
+#box_all .long_box
+{
+    width: 210px;
+    height: 460px;
+
+    padding: 20px 20px 20px 20px;
+    float: right;
+    
+    background-color: rgb(0, 153, 255);
+}
+
+#box_all .small_box:nth-child(1),
+#box_all .small_box:nth-child(3),
+#box_all .small_box:nth-child(6)
+{
+    background-color: yellow;
+}

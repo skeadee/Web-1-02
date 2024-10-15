@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+#header li a:visited
+{
+    color: black;
+}
+
+
+
 #header
 {
     height: 120px;
@@ -17,6 +28,11 @@
 #header ul{
     height: 53px;
     padding-bottom: 14px;
+}
+
+#header li:hover
+{
+    text-decoration: underline;
 }
 
 #header li

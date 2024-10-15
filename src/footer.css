@@ -1,0 +1,39 @@
+#footer 
+{
+    width: 1000px;
+}
+
+#footer div
+{
+    width: 750px;
+    height: 40px;
+
+    background-color: gray;
+    float: left;
+}
+
+#footer p
+{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+#footer p::after
+{
+    padding-left: 10px;
+
+    content: "|";
+    color: orange;
+
+    font-weight: bolder;
+}
+
+#footer p:nth-child(1)
+{
+    padding-left: 15px;
+}
+
+#footer p:nth-child(6)::after
+{
+   content: none;
+}
