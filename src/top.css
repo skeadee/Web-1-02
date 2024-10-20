@@ -11,23 +11,40 @@
    height: 500px;
 
    margin-top: 10px;
-   position: relative;
+
+   background-color: aqua;
 }
 
 #top img
 {
-   float : left;
+   float: right;
 }
 
-#top p
+
+.chef_about
+{
+   margin: 0;
+
+   width: 750px;
+   height: 500px;
+
+   background-image: url(../img/chef_about.png);
+
+   float: left;
+}
+
+.chef_about p
 {
    width: 210px;  
    height: 210px;
 
    padding: 20px 20px 20px 20px;
-
-   position: absolute;
-   bottom: 0px;
+   margin: 0;
 
    background-color: rgba(21, 126, 53, 0.566);
+}
+
+.chef_about p:first-child
+{
+   background-color:rgba(255, 255, 255, 0)
 }

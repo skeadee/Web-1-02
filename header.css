@@ -22,14 +22,18 @@ a{
 }
 
 #header .img{
-    display: block;
+    display: inline;
     margin-top: 33px;
 }
 
 #header ul{
     height: 53px;
     padding-bottom: 14px;
+
+    text-align: center;
 }
+
+
 
 #header li:hover
 {
@@ -42,13 +46,5 @@ a{
 
     margin: 0px 40px 0px 40px;
     padding-top: 20px;
-}
-
-#header .left{
-    float: left;
-}
-
-#header .right{
-    float: right;
 }
 
