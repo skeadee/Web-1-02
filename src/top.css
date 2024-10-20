@@ -11,40 +11,49 @@
    height: 500px;
 
    margin-top: 10px;
-
-   background-color: aqua;
-}
-
-#top img
-{
-   float: right;
 }
 
 
-.chef_about
-{
+
+#top > .left_img
+{ 
    margin: 0;
 
    width: 750px;
    height: 500px;
 
-   background-image: url(../img/chef_about.png);
-
    float: left;
+
+   background-image: url(../img/chef_about.png);
 }
 
-.chef_about p
+#top > .left_img p
 {
    width: 210px;  
    height: 210px;
 
    padding: 20px 20px 20px 20px;
-   margin: 0;
+
+   margin-left: 0px;
+   margin-top: 250px;
+  
 
    background-color: rgba(21, 126, 53, 0.566);
 }
 
-.chef_about p:first-child
+
+
+#top > .right_img
 {
-   background-color:rgba(255, 255, 255, 0)
+   width: 250px;
+   height: 500px;
+
+   float: left;
+
+   background-color: rgb(245, 220, 220);
+}
+
+#top > .right_img img
+{
+   float: left;
 }
